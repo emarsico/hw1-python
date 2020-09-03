@@ -16,7 +16,7 @@ def translateGrade(g):
   elif g == "D" :
     return 1.0
   else :
-    return 0
+    return 0.0
   
 
 gradepoint1 = input("Enter your course 1 letter grade: ")
