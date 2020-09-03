@@ -21,15 +21,15 @@ def translateGrade(g):
 
 gradepoint1 = input("Enter your course 1 letter grade: ")
 credit1 = float(input("Enter your course 1 credit: "))
-print("Grade point for course 1 is : " + str(translateGrade(gradepoint1)))
+print("Grade point for course 1 is: " + str(translateGrade(gradepoint1)))
 
 gradepoint2 = input("Enter your course 2 letter grade: ")
 credit2 = float(input("Enter your course 2 credit: "))
-print("Grade point for course 2 is : " + str(translateGrade(gradepoint2)))
+print("Grade point for course 2 is: " + str(translateGrade(gradepoint2)))
 
 gradepoint3 = input("Enter your course 3 letter grade: ")
 credit3 = float(input("Enter your course 3 credit: "))
-print("Grade point for course 3 is : " + str(translateGrade(gradepoint3)))
+print("Grade point for course 3 is: " + str(translateGrade(gradepoint3)))
 
 GPA = (translateGrade(gradepoint1) * credit1 + translateGrade(gradepoint2) * credit2 + translateGrade(gradepoint3) * credit3) / (credit1 + credit2 + credit3) 
 print("Your GPA is: " + str(GPA))
